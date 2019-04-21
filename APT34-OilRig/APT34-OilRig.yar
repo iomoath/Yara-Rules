@@ -10,7 +10,7 @@ strings:
   $s1 = "Request.Params[\"d\"], signature = Request.Params[\"s\"], parameters = Request.Params[\"p\"], ks = Request.Params[\"ks\"];"
   $s2 = "5I5Mai8UN5PaPqq+hIr5QCvd9OUykjonZmMVlg7yUsnFKf0FeTtlb55Eb5zxI/OHJj1JzPCjbyMvpPMmdxg4fSnVZBhYuTE+0+9Ierl3V41Tw53BtO22ktDqWY5m40/Zpdgn2sPESrqBif6/HbnccgRM5iPx8qAq3qV3gfxTOfl4jDlG6n8iuhBYNetmHRFOW3C4/7qIUYp0GS0vfx+jb0sZIjrSCy6J1mxMy/1QgSwGOSbcnJCh0Nijn006DVX2rTDoKY97JfXs5h+Ac3KW3vQldkyFdLIOpRbbA4yOMJ6XEX6O7/n51t3GkD+rFUwmNtpVnMPGdIoxc0QyHdu2DQ=="
 condition:
-   1 of them
+   all of them
 }
 
 
