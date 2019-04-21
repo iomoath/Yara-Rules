@@ -2,15 +2,15 @@ rule APT34_ASPX_base_shell{
 meta:
   author = "Moath Maharmeh https://github.com/iomoath"
   last_updated = "2019-04-21"
-  hash1 = "6e86c57385d26a59c0df1580454b9967"
-  hash2 = "faa3a80456b3a074fad3eb5c39293a51"
-  description = "Catches APT34 ASPX shell"
+  hash1 = "faa3a80456b3a074fad3eb5c39293a51"
+  hash2 = "4f3672ec2ce751dc3f92bb9913474b4c"
+  description = "Catches APT34 ASPX base shell"
 
 strings:
   $s1 = "Request.Params[\"d\"], signature = Request.Params[\"s\"], parameters = Request.Params[\"p\"], ks = Request.Params[\"ks\"];"
   $s2 = "5I5Mai8UN5PaPqq+hIr5QCvd9OUykjonZmMVlg7yUsnFKf0FeTtlb55Eb5zxI/OHJj1JzPCjbyMvpPMmdxg4fSnVZBhYuTE+0+9Ierl3V41Tw53BtO22ktDqWY5m40/Zpdgn2sPESrqBif6/HbnccgRM5iPx8qAq3qV3gfxTOfl4jDlG6n8iuhBYNetmHRFOW3C4/7qIUYp0GS0vfx+jb0sZIjrSCy6J1mxMy/1QgSwGOSbcnJCh0Nijn006DVX2rTDoKY97JfXs5h+Ac3KW3vQldkyFdLIOpRbbA4yOMJ6XEX6O7/n51t3GkD+rFUwmNtpVnMPGdIoxc0QyHdu2DQ=="
 condition:
-   all of them
+   1 of them
 }
 
 
@@ -157,7 +157,7 @@ rule APT34_Poison_Frog_Agent{
 meta:
   author = "Moath Maharmeh https://github.com/iomoath"
   last_updated = "2019-04-21"
-  hash = "688a165fc64b3c9ad19022f581599c91"
+  hash = "5e17061bf2dce87d402ddd8531abb49f"
   description = "Catches APT34 Poison Frog agent"
 
 strings:
@@ -173,7 +173,7 @@ rule APT34_Glimpse_Poison_Frog_Control_Panel{
 meta:
   author = "Moath Maharmeh https://github.com/iomoath"
   last_updated = "2019-04-21"
-  hash = "688a165fc64b3c9ad19022f581599c91"
+  hash = "4b7a9aac2c54e1deab2020f58dd1b840"
   description = "Catches APT34 Glimpse control panel"
 
 strings:
